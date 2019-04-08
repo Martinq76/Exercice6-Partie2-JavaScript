@@ -1,7 +1,7 @@
 function mouseOver(changeImgId) {
-    document.getElementById(changeImgId.id).src = changeImgId.id + '_2.jpg';
+    changeImgId.src = changeImgId.id + '_2.jpg';
 }
 
 function mouseOut(changeImgId) {
-  document.getElementById(changeImgId.id).src = changeImgId.id + '.jpg';
+  changeImgId.src = changeImgId.id + '.jpg';
 }
